@@ -22,6 +22,8 @@
 *.map
 *.sym
 
+*.1bbp
+*.2bbp
 # compare.sh
 baserom.txt
 pokecrystal.txt
