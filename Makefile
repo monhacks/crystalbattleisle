@@ -72,7 +72,7 @@ compare: pokecrystal.gbc pokecrystal11.gbc
 
 %.asm: ;
 $(all_obj): $$*.asm $$($$*_dep)
-	$(RGBDS) -o $@ $<
+	$(RGBASM) -o $@ $<
 
 pokecrystal11.gbc: $(crystal11_obj)
 	$(RGBLINK) -n $*.sym -m $*.map -o $@ $^
